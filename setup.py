@@ -11,5 +11,5 @@ setup(
     author='feely',  # 作者
     author_email='pipcook@alibaba-inc.com',  # 作者邮箱
     url='https://github.com/alibaba/pipcook',      # 包的主页
-    packages=[ 'train', 'model' ],                 # 包
+    packages=[ 'cyclegan' ],                 # 包
 )
