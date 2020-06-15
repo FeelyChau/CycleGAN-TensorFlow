@@ -1,6 +1,6 @@
 import tensorflow as tf
-import ops
-import utils
+import cyclegan.ops as ops
+import cyclegan.utils as utils
 
 class Generator:
   def __init__(self, name, is_training, ngf=64, norm='instance', image_size=128):

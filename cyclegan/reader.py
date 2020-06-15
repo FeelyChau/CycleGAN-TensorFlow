@@ -1,5 +1,5 @@
 import tensorflow as tf
-import utils
+import cyclegan.utils
 
 class Reader():
   def __init__(self, tfrecords_file, image_size=256,

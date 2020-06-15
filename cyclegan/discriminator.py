@@ -1,5 +1,5 @@
 import tensorflow as tf
-import ops
+import cyclegan.ops as ops
 
 class Discriminator:
   def __init__(self, name, is_training, norm='instance', use_sigmoid=False):

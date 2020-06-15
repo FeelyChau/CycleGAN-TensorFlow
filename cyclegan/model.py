@@ -1,9 +1,9 @@
 import tensorflow as tf
-import ops
-import utils
-from reader import Reader
-from discriminator import Discriminator
-from generator import Generator
+import cyclegan.ops as ops
+import cyclegan.utils as utils
+from cyclegan.reader import Reader
+from cyclegan.discriminator import Discriminator
+from cyclegan.generator import Generator
 
 REAL_LABEL = 0.9
 
